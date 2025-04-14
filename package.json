@@ -1,0 +1,21 @@
+{
+  "name": "introducao-api-rest",
+  "version": "1.0.0",
+  "description": "intodução a apii rest",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcos02193/introducao-api-rest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcos02193/introducao-api-rest/issues"
+  },
+  "homepage": "https://github.com/marcos02193/introducao-api-rest#readme"
+}
