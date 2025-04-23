@@ -51,6 +51,18 @@ router.delete("/deleteprodutos/:id", (req, res) => {
       res.status(200).json(produtos)
 })
 
+router.get("/searchprodutos/:id", (req, res) => {
+    const {id} = req.params
+  
+      const indice = produtos.findIndex((produto) => {
+        return produto.id == parseInt(id)
+      })
+    
+      res.status(200).json(produtos[indice])
+})
+
+
+
 
 
 
